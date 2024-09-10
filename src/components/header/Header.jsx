@@ -2,8 +2,6 @@ import { BlogIcon } from "../need/BlogIcon";
 import { NormalText } from "../need/NormalText";
 import Link from "next/link";
 export const Header = () => {
-  console.log("hello");
-
   return (
     <div className=" flex justify-center items-center py-8 px-[350px]  ">
       <div className="flex justify-between gap-[360px] ">
@@ -14,7 +12,6 @@ export const Header = () => {
         </div>
         <div className="flex justify-between items-end mr-[100px] w-[630px] gap-[21px]">
           <div className="flex gap-10 items-center justify-center">
-            <p>aaaaa</p>
             <button className="flex gap-10">
               <Link href={"/"}>
                 <NormalText text={"Home"} />
