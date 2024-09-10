@@ -1,4 +1,5 @@
 import { TiTle } from "./BlogCard";
+import Link from "next/link";
 
 export const AllBlog = ({ articles }) => {
   return (
@@ -8,33 +9,32 @@ export const AllBlog = ({ articles }) => {
         <div className="flex gap-8">
           <div className="flex gap-5">
             <div className="flex gap-5">
-              <h2 className=" text-[#495057] font-bold text-[12px] hover:text-[#D4A373] duration-100">
+              <button className=" text-[#495057] font-bold text-[12px] hover:text-[#D4A373] duration-100">
                 All
-              </h2>
-              <h2 className=" text-[#495057] font-bold text-[12px] hover:text-[#D4A373] duration-100">
+              </button>
+              <button className=" text-[#495057] font-bold text-[12px] hover:text-[#D4A373] duration-100">
                 Design
-              </h2>
-              <h2 className=" text-[#495057] font-bold text-[12px] hover:text-[#D4A373] duration-100">
+              </button>
+              <button className=" text-[#495057] font-bold text-[12px] hover:text-[#D4A373] duration-100">
                 Travel
-              </h2>
-              <h2 className=" text-[#495057] font-bold text-[12px] hover:text-[#D4A373] duration-100">
+              </button>
+              <button className=" text-[#495057] font-bold text-[12px] hover:text-[#D4A373] duration-100">
                 Fashion
-              </h2>
-              <h2 className=" text-[#495057] font-bold text-[12px] hover:text-[#D4A373] duration-100">
+              </button>
+              <button className=" text-[#495057] font-bold text-[12px] hover:text-[#D4A373] duration-100">
                 Technology
-              </h2>
-              <h2 className=" text-[#495057] font-bold text-[12px] hover:text-[#D4A373] duration-100">
+              </button>
+              <button className=" text-[#495057] font-bold text-[12px] hover:text-[#D4A373] duration-100">
                 Branding
-              </h2>
+              </button>
+              <Link href={"/blogpost"}>
+                <button className="text-[#495057]  font-bold text-[12px] hover:text-[#D4A373] duration-100">
+                  View All
+                </button>
+              </Link>
             </div>
           </div>
-          <div>
-            <button>
-              <h2 className="text-[#495057]  font-bold text-[12px] hover:text-[#D4A373] duration-100">
-                View All
-              </h2>
-            </button>
-          </div>
+          <div></div>
         </div>
         <div className="flex  justify-between gap-5 ">
           <TiTle articles={articles} />

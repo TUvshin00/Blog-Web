@@ -6,7 +6,7 @@ export const End = () => {
       <div className="flex justify-between ">
         <div>
           <div className="flex flex-col gap-3">
-            <h2 className="font-semibold text-[18px] text-[#181A2A]">About </h2>
+            <h2 className="font-semibold text-[18px] text-[#181A2A]">About</h2>
             <h2 className="text-base text-[#696A75] font-normal w-[280px] h-[120px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

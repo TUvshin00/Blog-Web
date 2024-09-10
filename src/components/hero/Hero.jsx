@@ -62,4 +62,3 @@ export const Hero = () => {
     </div>
   );
 };
-// container m-auto flex flex-col items-center  gap-[100px] ehnii div
