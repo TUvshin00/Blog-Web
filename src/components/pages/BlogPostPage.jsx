@@ -5,7 +5,7 @@ import { TiTle } from "../title";
 import Link from "next/link";
 
 export const BlogPostPage = () => {
-  const [contentNumber, setContentNumber] = useState(21);
+  const [contentNumber, setContentNumber] = useState(42);
   const [articles, setArticles] = useState([]);
   const fetchData = () => {
     fetch(`http://dev.to/api/articles?per_page=${contentNumber}`)

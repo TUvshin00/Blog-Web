@@ -3,7 +3,7 @@ import { NormalText } from "../need/NormalText";
 import Link from "next/link";
 export const Header = () => {
   return (
-    <div className=" flex justify-center items-center py-8 px-[350px]  ">
+    <div className="  flex justify-center items-center py-8 px-[350px]  ">
       <div className="flex justify-between gap-[360px] ">
         <div className="flex justify-start items-center">
           <Link href={"../"}>
@@ -24,9 +24,9 @@ export const Header = () => {
               </Link>
             </button>
           </div>
-          <div className="flex gap-3 items-center rounded bg-[#F4F4F5] outline-none">
+          <div className="flex gap-3 items-center rounded-lg bg-[#F4F4F5] outline-none">
             <input
-              className="bg-[#F4F4F5] w-[114px] h-[36px] rounded outline-none"
+              className="bg-[#F4F4F5] w-[114px] h-[36px] rounded-lg  outline-none"
               type="text"
               placeholder="Search"
             />

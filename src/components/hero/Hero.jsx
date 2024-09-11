@@ -5,7 +5,7 @@ export const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [article, setArticle] = useState([]);
   const fetchData = () => {
-    fetch(`http://dev.to/api/articles?per_page=10&top=6`)
+    fetch(`http://dev.to/api/articles?per_page=10&top=7`)
       .then((response) => response.json())
       .then((data) => setArticle(data));
   };

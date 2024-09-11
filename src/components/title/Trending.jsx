@@ -22,7 +22,7 @@ export const Trending = () => {
               return (
                 <Link href={`/blogpost/${article.id}`}>
                   <div
-                    className={`rounded-lg w-[289px] h-[320px] flex justify-end flex-col bg-[#18191b] bg-blend-soft-light `}
+                    className={`rounded-lg w-[289px] h-[320px] flex justify-end flex-col bg-[#18191b] bg-blend-hard-light `}
                     style={{
                       backgroundImage: `url(${article.cover_image})`,
                       backgroundSize: "cover",

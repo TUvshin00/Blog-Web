@@ -21,13 +21,13 @@ export const ContactUsPage = () => {
             <div className="p-4 flex flex-col gap-3 border-2 rounded-xl">
               <h2 className=" text-2xl font-bold">Adress</h2>
               <p className="text-[#696A75] text-base w-[240px] h-[52px]">
-                1328 Oak Ridge Drive, Saint Louis, Missouri
+                Mongolia , Ulaanbaatar
               </p>
             </div>
             <div className="p-4 w-[276px] flex flex-col gap-3 border-2 rounded-xl">
               <h2 className=" text-2xl font-bold">Contact</h2>
               <p className="text-[#696A75] text-base w-[200px] h-[52px]">
-                313-332-8662 Info@email.com
+                99534102 tuwshuk13@gmail.com
               </p>
             </div>
           </div>
@@ -57,6 +57,9 @@ export const ContactUsPage = () => {
                     placeholder="Write a message"
                   />
                 </div>
+                <button className="w-[130px] mt-[10px] h-[40px] text-white border-2 bg-[#4B6BFB] rounded-md border-none">
+                  Send Message
+                </button>
               </div>
             </div>
           </div>
