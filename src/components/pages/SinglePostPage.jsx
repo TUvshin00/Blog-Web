@@ -1,6 +1,4 @@
 import { useRouter } from "next/router";
-import { End } from "../end";
-import { Header } from "../header/Header";
 
 import { useEffect, useState } from "react";
 
@@ -19,7 +17,6 @@ export const SinglePostPage = () => {
 
   return (
     <div className="flex flex-col gap-[100px] items-center">
-      <Header />
       <div className="max-w-[800px] w-full flex flex-col gap-8">
         <div className="flex flex-col gap-5">
           <p className="text-[#181A2A] text-4xl leading-10 font-semibold font-text">
@@ -97,7 +94,6 @@ export const SinglePostPage = () => {
           </p>
         </div>
       </div>
-      <End />
     </div>
   );
 };

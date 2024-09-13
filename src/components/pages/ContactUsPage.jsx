@@ -1,10 +1,7 @@
-import { End } from "../end";
-import { Header } from "../header";
 import { InPut } from "../title";
 export const ContactUsPage = () => {
   return (
     <div className="flex flex-col gap-[100px]">
-      <Header />
       <div className=" flex justify-center gap-[60px] flex-col items-center">
         <div className="flex flex-col justify-center gap-5">
           <div className="flex flex-col gap-5">
@@ -65,7 +62,6 @@ export const ContactUsPage = () => {
           </div>
         </div>
       </div>
-      <End />
     </div>
   );
 };

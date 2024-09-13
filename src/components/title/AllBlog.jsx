@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export const AllBlog = ({ articles, handleFilter }) => {
   return (
-    <div className=" ml-[160px] mt-24 container w-full m-auto">
-      <div className=" flex justify-center items-start flex-col gap-8">
+    <div className=" ml-[160px] mt-24 w-full m-auto">
+      <div className="container  flex justify-center items-start flex-col gap-8">
         <h2 className="text-2xl font-bold">All Blog Post</h2>
         <div className="flex gap-8">
           <div className="flex gap-5">

@@ -1,6 +1,5 @@
-import { Header } from "../header/Header";
 import { Hero } from "../hero/Hero";
-import { End } from "../end/End";
+
 import { AllBlog } from "../title";
 import { Trending } from "../title";
 import { useEffect, useState } from "react";
@@ -29,7 +28,6 @@ export const HomePage = () => {
   };
   return (
     <div className="container m-auto">
-      <Header />
       <Hero />
       <Trending articles={articles} />
       <AllBlog articles={articles} handleFilter={handleFilter} />
@@ -39,7 +37,6 @@ export const HomePage = () => {
       >
         Load More
       </button>
-      <End />
     </div>
   );
 };

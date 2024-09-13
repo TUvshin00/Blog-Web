@@ -1,6 +1,7 @@
 import { BlogIcon } from "../need/BlogIcon";
 import { NormalText } from "../need/NormalText";
 import Link from "next/link";
+import Search from "./Search";
 export const Header = () => {
   return (
     <div className="  flex justify-center items-center py-8 px-[350px]  ">
@@ -24,18 +25,12 @@ export const Header = () => {
               </Link>
             </button>
           </div>
-          <div className="flex gap-3 items-center rounded-lg bg-[#F4F4F5] outline-none">
-            <input
-              className="bg-[#F4F4F5] w-[114px] h-[36px] rounded-lg  outline-none"
-              type="text"
-              placeholder="Search"
-            />
-            <button>
-              <img src="./search-outline.png" alt="" />
-            </button>
+          <div className="flex gap-3 items-center rounded-xl bg-[#F4F4F5] outline-none">
+            <Search />
           </div>
         </div>
       </div>
     </div>
   );
 };
+export default Header;
