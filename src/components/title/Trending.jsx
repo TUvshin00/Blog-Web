@@ -24,14 +24,14 @@ export const Trending = () => {
                   <div
                     className={`rounded-lg w-[289px] h-[320px] flex justify-end flex-col bg-[#18191b] bg-blend-hard-light `}
                     style={{
-                      backgroundImage: `url(${article.cover_image})`,
+                      backgroundImage: `url(${article?.cover_image})`,
                       backgroundSize: "cover",
                       backgroundPosition: "center",
                     }}
                   >
                     <div className="flex flex-col  p-6 gap-4">
                       <h2 className="text-[#FFFFFF] border-2 rounded-md w-[90px] border-none text-[14px] bg-blue-500 ">
-                        {article.tag_list[0]}
+                        {article?.tag_list[0]}
                       </h2>
                       <h2 className="font-semibold line-clamp-2 text-[#FFFFFF]">
                         {article.description}

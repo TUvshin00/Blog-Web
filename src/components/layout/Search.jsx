@@ -33,7 +33,7 @@ export const Search = () => {
     <div>
       <div className="flex justify-center items-center pr-3 relative  bg-[#F4F4F5] ">
         <input
-          className="bg-[#F4F4F5] w-[114px] h-[36px] rounded-xl pl-3 text-black outline-none"
+          className="bg-[#F4F4F5] w-[200px] h-[36px] rounded-xl pl-3 text-black outline-none"
           type="text"
           placeholder="Search"
           value={searchValue}

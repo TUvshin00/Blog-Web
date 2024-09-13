@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export const AllBlog = ({ articles, handleFilter }) => {
   return (
-    <div className=" ml-[160px] mt-24 w-full m-auto">
-      <div className="container  flex justify-center items-start flex-col gap-8">
+    <div className=" ml-[160px] container  mt-24 m-auto">
+      <div className=" flex justify-center w-full items-start flex-col gap-8">
         <h2 className="text-2xl font-bold">All Blog Post</h2>
         <div className="flex gap-8">
           <div className="flex gap-5">
@@ -39,18 +39,12 @@ export const AllBlog = ({ articles, handleFilter }) => {
               >
                 Technology
               </button>
-              <button
-                onClick={() => handleFilter("branding")}
-                className=" text-[#495057] font-bold text-[12px] hover:text-[#D4A373] duration-100"
-              >
-                Branding
-              </button>
-              <Link href={"/blogpost"}>
-                <button className="text-[#495057]  font-bold text-[12px] hover:text-[#D4A373] duration-100">
-                  View All
-                </button>
-              </Link>
             </div>
+            <Link href={"/blogpost"}>
+              <button className="text-[#495057] ml-[860px] font-bold text-[12px] hover:text-[#D4A373] duration-100">
+                View All
+              </button>
+            </Link>
           </div>
           <div></div>
         </div>

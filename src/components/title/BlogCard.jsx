@@ -9,9 +9,9 @@ export const TiTle = ({ articles }) => {
             return (
               <Link href={`/blogpost/${article.id}`}>
                 <div className="p-6 border-2 h-[476px] rounded-lg cursor-pointer hover:shadow-md">
-                  <div className="overflow-hidden rounded-md">
+                  <div className="overflow-hidden rounded-md w-[350px] h-[160px]">
                     <img
-                      className="hover:scale-110 duration-150 rounded-md"
+                      className="hover:scale-110 duration-150 rounded-md "
                       src={article?.cover_image}
                       alt=""
                     />
