@@ -6,7 +6,7 @@ export const BlogPostPage = () => {
   const [contentNumber, setContentNumber] = useState(42);
   const [articles, setArticles] = useState([]);
   const fetchData = () => {
-    fetch(`http://dev.to/api/articles?per_page=${contentNumber}`)
+    fetch(`https://dev.to/api/articles?per_page=${contentNumber}`)
       .then((response) => response.json())
       .then((data) => setArticles(data));
   };

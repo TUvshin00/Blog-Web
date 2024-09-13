@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 export const Trending = () => {
   const [article, setArticle] = useState([]);
   const fetchData = () => {
-    fetch(`http://dev.to/api/articles?per_page=4&top=3`)
+    fetch(`https://dev.to/api/articles?per_page=4&top=3`)
       .then((response) => response.json())
       .then((data) => setArticle(data));
   };

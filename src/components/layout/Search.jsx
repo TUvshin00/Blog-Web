@@ -7,7 +7,7 @@ export const Search = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const fetchData = () => {
-    fetch(`http://dev.to/api/articles?per_page=100`)
+    fetch(`https://dev.to/api/articles?per_page=100`)
       .then((response) => response.json())
       .then((data) => setArticlesForSearch(data));
   };

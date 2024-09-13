@@ -10,7 +10,7 @@ export const HomePage = () => {
 
   const fetchData = () => {
     fetch(
-      `http://dev.to/api/articles?per_page=${contentNumber}&top=7&tag=${allBlogPost}`
+      `https://dev.to/api/articles?per_page=${contentNumber}&top=7&tag=${allBlogPost}`
     )
       .then((response) => response.json())
       .then((data) => setArticles(data));
