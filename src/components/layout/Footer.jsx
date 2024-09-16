@@ -38,9 +38,15 @@ export const Footer = () => {
               </Link>
             </div>
             <div className="flex gap-5 max-w-[280px] w-full justify-end">
-              <img className="w-4 h-4" src="./Negative copy 3.png" alt="" />
-              <img className="w-4 h-4" src="./Negative copy 2.png" alt="" />
-              <img className="w-4 h-4" src="./Negative copy.png" alt="" />
+              <Link href={"https://www.facebook.com/tuwshin.tuwshuu.96"}>
+                <img className="w-4 h-4" src="./Negative copy 3.png" alt="" />
+              </Link>
+              <Link href={"https://x.com/Tuvshin0413"}>
+                <img className="w-4 h-4" src="./Negative copy 2.png" alt="" />
+              </Link>
+              <Link href={"https://www.instagram.com/_tuwshin/"}>
+                <img className="w-4 h-4" src="./Negative copy.png" alt="" />
+              </Link>
               <img className="w-4 h-4" src="./Negative.png" alt="" />
             </div>
           </div>
